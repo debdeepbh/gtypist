@@ -25,6 +25,14 @@ Files in this package which provide further information:
 --------------------------------------------------------
 
 - INSTALL: compiling and installation instructions.
+
+```
+sudo apt install -y $(cat packages)
+./autogen.sh
+make
+sudo make install
+```
+
 - COPYING: copying conditions
 - NEWS: description of major changes in this release.
 - AUTHORS, THANKS: list of authors and other contributors.
